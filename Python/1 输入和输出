@@ -1,0 +1,52 @@
+## 注释
+
+### 单行注释
+
+#  
+
+### 多行注释
+
+“”“ ”“”
+
+‘’‘  ’‘’‘
+
+代码缩进
+
+命名规范
+
+```python
+abs() 求绝对值
+round() 四舍五入
+# round(1.234, 2) 保留两位小数
+```
+
+# 输入和输出
+
+```python
+grade = input("请输入你的成绩：")
+print(grade)
+```
+
+输出函数print()：以字符形式向控制台输出结果
+
+1  print()用法1：将单一字符串或变量直接输出
+
+```python
+a = "人生苦短，我用Python。"
+print(a)
+```
+
+2  print()用法2：将多个字符串或变量直接输出
+
+```python
+a = "人生苦短，"
+b = "我用Python。"
+print(a, b)
+```
+
+3  print()用法3：字符串和变量的混合输出
+
+```python
+a = "人生苦短，请用Python。"
+print("Python对我说：{}".format(a))
+```
